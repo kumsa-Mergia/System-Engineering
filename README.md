@@ -5,7 +5,8 @@ Welcome to the **System Engineering** repository! This repository is designed to
 ## Repository Structure
 
 - **Linux Commands**: Essential Linux commands for system administration, file management, networking, and more.
-- **PowerShell Commands**: Commonly used PowerShell commands for Windows system administration.
+- **PowerShell**: Commonly used PowerShell commands for Windows system administration.
+- **PowerShellExample**: in This Directory There is a Simple Examples of PowerShell.
 - **PowerShell Scripts**: Examples of PowerShell scripts for task automation, system management, and other scenarios.
 
 ## Getting Started
