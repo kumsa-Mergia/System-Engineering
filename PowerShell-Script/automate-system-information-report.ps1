@@ -21,6 +21,7 @@ Disk Usage:
 "@
 
 # Save the report to a file
+
 $reportContent | Out-File -FilePath $reportPath
 
 Write-Output "System report saved to $reportPath"
