@@ -21,7 +21,7 @@
  - **Lists attributes of a device.**
     ````shell 
         lsattr -El <device>
-      ```
+    ```
  - **Removes a device.**
     ```shell 
         rmdev -l <device> -d
