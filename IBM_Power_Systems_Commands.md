@@ -1,5 +1,5 @@
-
 # IBM Power Systems Commands for System Engineers
+
 
 ## **System Management Commands**
 ### View System Information
@@ -7,11 +7,12 @@
 - `prtconf` - Displays configuration of the system.
 - `uname -a` - Displays OS and system information.
 
+
 ### System Status
-- `lscfg` - Lists system hardware.
-- `lsdev` - Lists device status.
-- `lsps -a` - Displays paging space usage.
-- `topas` - System performance monitoring.
+- `lscfg`    - Lists system hardware.
+- `lsdev`    - Lists device status.
+- `lsps -a`  - Displays paging space usage.
+- `topas`    - System performance monitoring.
 
 ### Firmware Management
 - `lsfw` - Lists firmware levels.
@@ -19,16 +20,19 @@
 
 ---
 
+
 ## **Partition Management (HMC or IVM)**
 
 ### View LPARs (Logical Partitions)
 - `lssyscfg -r lpar` - Displays configuration of all LPARs.
 - `lsnimm -l` - Lists all managed systems and LPARs.
 
+
 ### Manage LPARs
 - `chsyscfg` - Changes LPAR configurations.
 - `mksyscfg` - Creates a new LPAR.
 - `rmsyscfg` - Deletes an LPAR.
+
 
 ### Power Management
 - `chsysstate -r lpar -o on -n <lpar_name>` - Power on an LPAR.
@@ -37,6 +41,7 @@
 
 ---
 
+
 ## **Storage Management**
 
 ### View Disks and Storage
@@ -44,10 +49,12 @@
 - `lslv` - Lists all logical volumes.
 - `lspv` - Lists all physical volumes.
 
+
 ### Manage Volume Groups
 - `mkvg` - Creates a volume group.
 - `extendvg` - Adds physical volumes to a volume group.
 - `reducevg` - Removes physical volumes from a volume group.
+
 
 ### Filesystem Management
 - `lsfs` - Lists filesystems.
@@ -56,11 +63,13 @@
 
 ---
 
+
 ## **Network Management**
 
 ### View Network Configuration
 - `lsdev -Cc adapter` - Lists network adapters.
 - `ifconfig -a` - Displays all network interfaces.
+
 
 ### Manage Network Interfaces
 - `smitty tcpip` - A menu-driven tool for managing network settings.
