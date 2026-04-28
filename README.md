@@ -57,11 +57,6 @@ Browse the directories based on your needs:
 * Use **Linux Commands** for quick command references
 * Explore **PowerShellExample** to learn scripting basics
 * Run or adapt scripts from **PowerShell Scripts** for automation tasks
-
----
-
----
-
 ---
 
 ## 👤 Author
